@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @cupon.type %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @cupon.code %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @cupon.amount %>
+</p>
+
+<p>
+  <strong>Discount:</strong>
+  <%= @cupon.discount %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @cupon.user %>
+</p>
+
+<%= link_to 'Edit', edit_cupon_path(@cupon) %> |
+<%= link_to 'Back', cupons_path %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @variation.price %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @variation.stock %>
+</p>
+
+<p>
+  <strong>Sku:</strong>
+  <%= @variation.sku %>
+</p>
+
+<%= link_to 'Edit', edit_variation_path(@variation) %> |
+<%= link_to 'Back', variations_path %>
